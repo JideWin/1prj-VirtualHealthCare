@@ -1,0 +1,2484 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.container {
+   width: 100%;
+}
+
+.headerhero {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+    color:  grey;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.59px;
+    text-align: left;
+    font-style: none;
+    cursor: pointer;   
+}
+
+li:hover {
+    color: black;
+    font-weight: 700;                
+  }
+
+.dots img{
+    background-image: url(./image/dots.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    top: 140px;
+    left: -50px;
+    gap: 0px;
+    opacity: 0.3px;
+   
+}
+
+.hero{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+.heroText h2{
+    font-family: Mulish;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.2;
+    overflow: hidden;
+    width: 60%;
+    margin-bottom: 1.2rem;
+ 
+}
+
+.heroText p{
+    font-family: Mulish;
+    font-size: 19px;
+    font-weight: 200;
+    line-height: 1.5;
+    color: grey;
+    width: 62.5%;
+  
+}
+
+.heroBtn button {
+    background:#458FF6;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.86px;
+    border: none;
+    justify-content:center;
+    padding: .5rem 1rem;
+    border-radius: 500px;
+    cursor: pointer;
+    color: white;
+    margin-top: 2rem;
+    width: 25%;
+ 
+}
+
+.heroImage img{
+width: 100%;
+}
+
+
+
+
+
+.innerContainer{
+    width: 80%;
+    margin: auto;
+}
+.serviceText{
+    margin:auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.serviceText h2{
+    font-family: Mulish;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 1.5rem;
+    margin-top: 10rem;
+    text-align: center;
+    color: black;
+    overflow: hidden;   
+}
+.line {
+    width: 4%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    border: 1.3px solid black;
+}
+
+.serviceText p{
+    font-family: Mulish;
+    font-size: 15px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color: grey;
+    line-height: 25px;
+    padding-bottom: 4rem;   
+}
+
+
+
+.bk{
+    background-image: url(./image/servicesBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 800px 800px;
+    background-position: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 95%;
+}
+
+.search{
+    width: 28%;
+    background-color: #fff;
+    box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+    padding: 20px;
+    margin: 8px;
+    padding: 3rem 2rem;
+    border-radius: 20px; 
+    margin-right: 3rem; 
+}
+
+.search img {
+    padding-bottom: 1rem;
+    width: 35%;
+
+}
+
+.searchText h2{
+    font-family: Mulish;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    line-height: 45px;
+   
+}
+
+.searchText p{
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: grey;
+    width: 80%;
+    
+}
+
+.pharmacy{
+    width: 28%;
+    background-color: #fff;
+    box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+    padding: 20px;
+    margin: 10px;
+    padding: 3rem 2rem;
+    border-radius: 20px; 
+    margin-right: 3rem; 
+}
+
+.pharmacy img {
+    padding-bottom: 1rem;
+    width: 30%;
+
+}
+
+.pharmacyText h2{
+    font-family: Mulish;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    line-height: 45px;
+
+
+}
+
+.pharmacyText p{
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: grey;
+    width: 90%;
+
+}
+
+.consultation{
+    width: 28%;
+    background-color: #fff;
+    box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+    padding: 20px;
+    margin: 10px;
+    padding: 3rem 2rem;
+    border-radius: 20px; 
+    margin-right: 3rem; 
+}
+
+.consultation img {
+    padding-bottom: 1rem;
+    width: 30%;
+
+}
+
+.consultationText h2{
+    font-family: Mulish;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    line-height: 45px;
+
+
+}
+
+.consultation p{
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: grey;
+    width: 90%;
+
+}
+
+
+
+.boxes2{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2rem;
+    width: 95%;   
+
+}
+
+.details{
+    width: 28%;
+    background-color: #fff;
+    box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+    padding: 20px;
+    margin: 10px;
+    padding: rem 2rem;
+    border-radius: 20px; 
+    margin-right: 3rem; 
+}
+
+.details img {
+    padding-bottom: 1rem;
+    width: 28%;
+
+}
+
+.detailsText h2{
+    font-family: Mulish;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    line-height: 45px;
+
+}
+
+.detailsText p{
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: grey;
+    width: 80%;
+
+}
+
+.emergency{
+    width: 28%;
+    background-color: #fff;
+    box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+    padding: 20px;
+    margin: 10px;
+    padding: 3rem 2rem;
+    border-radius: 20px; 
+    margin-right: 3rem; 
+}
+
+.emergency img {
+    padding-bottom: 1rem;
+    width: 30%;
+
+}
+
+.emergencyText h2{
+    font-family: Mulish;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    line-height: 45px;
+
+
+}
+
+.emergencyText p{
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: grey;
+    width: 90%;
+
+}
+
+.tracking{
+    width: 28%;
+    background-color: #fff;
+    box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+    padding: 20px;
+    margin: 10px;
+    padding: 3rem 2rem;
+    border-radius: 20px; 
+    margin-right: 3rem; 
+}
+
+.tracking img {
+    padding-bottom: 1rem;
+    width: 25%;
+
+}
+
+.trackingText h2{
+    font-family: Mulish;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    line-height: 45px;
+
+
+}
+
+.tracking p{
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: grey;
+    width: 80%;
+
+}
+
+.serviceBtn button {
+    background: none;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.86px;
+    justify-content:center;
+    padding: .5rem 1rem;
+    border-radius: 500px;
+    cursor: pointer;
+    color: #458FF6;
+    width: 15%;
+    border: 1.4px solid #458FF6;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 10rem;  
+}
+
+.healthcare{
+    display: flex;
+    margin: auto;
+}
+
+.healthcareImage{
+width: 100%;
+}
+
+.healthcareImage img{
+width: 100%;
+align-items: flex-end;
+}
+
+.healthcareText{
+margin-left: 6rem;
+margin-top: 2rem;
+}
+
+.healthcareText h2{
+    font-family: Mulish;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 65%;
+    margin-bottom: 1.2rem;
+}
+
+.healthcareLine{
+    width: 7%;
+    margin-bottom: 1.5rem;
+    border: 1.3px solid black;
+}
+
+.healthcareText p{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 68%;
+    color: #7D7987;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+
+}
+
+.healthcareBtn{
+    background: none;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.86px;
+    justify-content:center;
+    padding: .5rem 1rem;
+    border-radius: 500px;
+    cursor: pointer;
+    color: #458FF6;
+    width: 25%;
+    border: 1.4px solid #458FF6;
+    margin-bottom: 2rem;
+
+}
+
+.dotsL img{
+    position: absolute;
+    right: 0%;
+    width: 5%;
+    margin-bottom: 4rem;
+}
+
+.app{
+    display: flex;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.appText{
+    margin-left: 6rem;
+    margin-top: 2rem;
+    }
+    
+    .appText h2{
+        font-family: Mulish;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 40px;
+        width: 45%;
+        margin-bottom: 1.2rem;
+    }
+    
+    .appLine{
+        width: 7%;
+        margin-bottom: 1.5rem;
+        border: 1.3px solid black;
+    }
+    
+    .appText p{
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        width: 60%;
+        color: #7D7987;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    
+    }
+    
+    .appBtn{
+        background: none;
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21.86px;
+        justify-content:center;
+        padding: .5rem 1rem;
+        border-radius: 500px;
+        cursor: pointer;
+        color: #458FF6;
+        width: 25%;
+        border: 1.4px solid #458FF6;
+        margin-bottom: 2rem;
+    }
+
+
+    .appImage{
+        width: 100%;
+        }
+        
+    .appImage img{
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+
+    .customer{
+        width: 85%;
+        margin: auto;
+        align-items: center;
+        background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+        box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+        padding: 20px;
+        padding: 3rem 2rem;
+        border-radius: 20px; 
+    }
+
+    .customerText{
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    .customerText h2{
+        font-family: Mulish;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .customerLine{
+        width: 5%;
+        margin: auto;
+        margin-bottom: 2rem;
+        border: 1.3px solid white;
+    }
+
+    .edward{
+      display: flex;
+    }
+
+    .edwardImage{
+      width: 50%;
+    }
+
+    .edwardImage img {
+        width:60%;
+        margin-left: 4rem;
+    }
+        
+    .edwardText {
+            display: flex; 
+            gap: 3rem;
+    }
+          
+    .edwardSignature {
+            margin-top: 2rem;
+            text-align: left;
+            flex: end;
+    }
+
+    .edwardSignature h2{
+            font-family:Mulish;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 30px;
+            color: white;
+    }
+
+          .edwardSignature p{
+            font-family: Mulish;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 25px;
+            color: #fff;
+
+          }
+          
+          .edwardParagraph {
+            text-align: left;
+            width: 43%;
+            margin-left: 4rem;
+            margin-top: 0.8rem;
+            font-family: Mulish;
+            color: #fff;
+            font-size: 13px;
+            line-height: 25px;
+            font-weight: 0;
+          }
+
+          .arrow{
+            margin-top: 2rem;
+            text-align: center;
+
+          }
+          .arrow img{
+            width: 20%;
+            margin-bottom: 10rem;
+          }
+
+    .articleText{
+        text-align: center;
+    }
+
+    .articleText h2{
+        font-family: Mulish;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 56px;
+        margin-bottom: .5rem;
+    }
+
+    .articleLine{
+        width: 4%;
+        margin: auto;
+        margin-bottom: 4rem;
+        border: 1.3px solid black;
+    }
+
+    .articleBoxes{
+        display: flex;
+        margin: auto;
+        width: 95%;
+    }
+
+    .disease{
+        width: 60%;
+        background-color: #fff;
+        box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+        padding: 20px;
+        margin: 8px;
+        padding: 0rem 0rem;
+        border-radius: 20px; 
+        margin-right: 3rem; 
+    }
+
+    .diseaseImage img{
+        width: 100%;
+    }
+
+    .diseaseText{
+        padding: 1rem 1.5rem;
+
+    }
+
+    .diseaseText h2{
+        /* width: 90%; */
+        font-family:Mulish;
+        font-size: 20px;
+        font-weight: 750;
+        line-height: 30px;
+        margin-bottom: .5rem;
+    }
+
+    .diseaseText p{
+        font-family: Mulish;
+        font-weight: 300;
+        line-height: 28px;
+        color:#7D7987;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .diseaseText h3{
+        font-family: Mulish;
+        font-size: 17px;
+        font-weight: 549;
+        line-height: 28px;
+        color: #4089ED;
+    }
+
+    .herbal{
+        width: 60%;
+        background-color: #fff;
+        box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+        padding: 20px;
+        margin: 8px;
+        padding: 0rem 0rem;
+        border-radius: 20px; 
+        margin-right: 3rem; 
+    }
+
+    .herbalImage img{
+        width: 100%;
+    }
+
+    .herbalText{
+        padding: 1rem 1.5rem;
+
+    }
+
+    .herbalText h2{
+        /* width: 90%; */
+        font-family:Mulish;
+        font-size: 20px;
+        font-weight: 750;
+        line-height: 30px;
+        margin-bottom: .5rem;
+    }
+
+    .herbalText p{
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        color:#7D7987;
+        margin-bottom: 1.5rem;
+    }
+
+    .herbalText h3{
+        font-family: Mulish;
+        font-size: 17px;
+        font-weight: 549;
+        line-height: 28px;
+        color: #4089ED;
+    }
+
+    .natural{
+        width: 60%;
+        background-color: #fff;
+        box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+        padding: 20px;
+        margin: 8px;
+        padding: 0rem 0rem;
+        border-radius: 20px; 
+        margin-right: 3rem; 
+    }
+
+    .naturalImage img{
+        width: 100%;
+    }
+
+    .naturalText{
+        padding: 1rem 1.5rem;
+
+    }
+
+    .naturalText h2{
+        /* width: 90%; */
+        font-family:Mulish;
+        font-size: 20px;
+        font-weight: 750;
+        line-height: 30px;
+        margin-bottom: .5rem;
+    }
+
+    .naturalText p{
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        color:#7D7987;
+        margin-bottom: 1.5rem;
+    }
+
+    .naturalText h3{
+        font-family: Mulish;
+        font-size: 17px;
+        font-weight: 549;
+        line-height: 28px;
+        color: #4089ED;
+    }
+
+    .articlebtn{
+        background: none;
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 650;
+        line-height: 21.86px;
+        justify-content:center;
+        padding: .5rem 1rem;
+        border-radius: 500px;
+        cursor: pointer;
+        color: #458FF6;
+        width: 13%;
+        border: 1.5px solid #458FF6;
+        display: block;
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 10rem; 
+        
+    }
+
+
+    footer{
+        padding-top: 6rem;
+        background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    }
+
+    .footcontainer{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+       
+    }
+
+    .logo{
+        display: flex;
+        margin-bottom: 1.5rem;
+        flex: end;
+       
+    }
+
+    .circle-t {
+        width: 50px; 
+        height: 50px;
+        border-radius: 50%;
+        background-color: white; 
+        color: #5B9BF3;
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+      }
+
+      .circle-t span {
+        font-family: Mulish;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 32.63px;
+        
+      }
+
+      .circleText{
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 30.12px;
+        margin-top: .8rem;
+        margin-left: .5rem;
+        color: #fff;
+      }
+
+      .footText{
+        margin-left: 10%;
+        margin-top: -8.9rem;
+        margin-bottom: 2rem;
+      }
+
+      .footText h3{
+        font-family: Mulish;
+        font-size: 18px;
+        font-weight: 100;
+        line-height: 28px;
+        color: #fff;
+        width:39.8%;
+        margin-bottom: 2rem;
+
+      }
+      .footText p{
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 150;
+        line-height: 28px;
+        color: #fff;
+
+      }
+      
+      
+      .serviceSide{
+        display: flex;
+        /* align-items: center; */
+        gap: 5rem;
+        margin-top: -.5rem;
+        
+      }
+
+      .companyLink h4{
+        font-family: Mulish;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 60px;
+        color: #fff;
+      }
+
+      .companyLink li{
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 38px;
+        color: #fff;
+      }
+
+      .regionLink h4{
+        font-family: Mulish;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 60px;
+        color: #fff;
+      }
+
+      .regionLink li{
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 38px;
+        color: #fff;
+      }
+
+      .helpLink li{
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 38px;
+        color: #fff;
+      }
+
+      .helpLink h4{
+        font-family: Mulish;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 60px;
+        color: #fff;
+      }
+
+      .helpLink li{
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 38px;
+        color: #fff;
+      }
+
+      .footImage{
+        width: 50%;
+      }
+
+      .footImage img{
+        width: 15%;
+      }
+
+     @media screen and (max-width: 1024px){
+
+        .dots img{
+            background-image: url(./image/dots.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100px;
+            top: 140px;
+            left: -50px;
+            gap: 0px;
+            opacity: 0.3px;
+           
+        }
+
+        .heroText h2{
+            font-family: Mulish;
+            font-size: 30px;
+            font-weight: 750;
+            line-height: 1.2;
+        }
+        
+        .heroText p{
+            font-family: Mulish;
+            font-size: 18px;
+            font-weight: 200;
+            line-height: 1.5;
+            color: grey;
+            width: 101.53%;
+          
+        }
+        
+        .heroBtn button {
+            background:#458FF6;
+            font-family: Mulish;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21.86px;
+            border: none;
+            justify-content:center;
+            padding: .5rem 1rem;
+            border-radius: 500px;
+            cursor: pointer;
+            color: white;
+            margin-top: 2rem;
+            width: 30%;
+         
+        }
+        
+        .serviceText h2{
+            font-family: Mulish;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30px;
+            margin-bottom: 1.5rem;
+            margin-top: 10rem;
+            text-align: center;
+            color: black;
+            overflow: hidden;   
+        }
+        
+        .serviceText p{
+            font-family: Mulish;
+            font-size: 15px;
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            color: grey;
+            line-height: 25px;
+            padding-bottom: 4rem;   
+        }
+        
+        .search{
+            width: 30%;
+            background-color: #fff;
+            box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+            margin: 8px;
+            padding: 3rem 2rem;
+            border-radius: 20px; 
+        }
+    
+        .searchText h2{
+            font-family: Mulish;
+            font-size: 16px;
+            color: black;
+            font-weight: 700;
+            line-height: 45px;
+           
+        }
+        
+        .searchText p{
+            font-family: Mulish;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 20px;
+            color: grey;
+            width: 110%;
+            
+        }
+        
+        .pharmacy{
+            width: 30%;
+            background-color: #fff;
+            box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+            margin: 8px;
+            padding: 3rem 2rem;
+            border-radius: 20px; 
+        }
+        
+        
+        .pharmacyText h2{
+            font-family: Mulish;
+            font-size: 16px;
+            color: black;
+            font-weight: 700;
+            line-height: 45px;
+        
+        
+        }
+        
+        .pharmacyText p{
+            font-family: Mulish;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 20px;
+            color: grey;
+            width: 110%;
+        
+        }
+        
+        .consultation{
+            width: 30%;
+            background-color: #fff;
+            box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+            margin: 8px;
+            padding: 3rem 2rem;
+            border-radius: 20px; 
+        }
+        
+        .consultationText h2{
+            font-family: Mulish;
+            font-size: 18px;
+            color: black;
+            font-weight: 700;
+            line-height: 45px;
+        
+        }
+        
+        .consultation p{
+            font-family: Mulish;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 20px;
+            color: grey;
+            width: 110%;
+        
+        }
+        
+        
+        .details{
+            width: 30%;
+            background-color: #fff;
+            box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+            margin: 8px;
+            padding: 3rem 2rem;
+            border-radius: 20px; 
+        }
+        
+        .detailsText h2{
+            font-family: Mulish;
+            font-size: 16px;
+            color: black;
+            font-weight: 700;
+            line-height: 45px;
+        
+        }
+        
+        .detailsText p{
+            font-family: Mulish;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 20px;
+            color: grey;
+            width: 110%;
+        
+        }
+        
+        .emergency{
+            width: 30%;
+            background-color: #fff;
+            box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+            margin: 8px;
+            padding: 3rem 2rem;
+            border-radius: 20px; 
+        }
+        
+        .emergencyText h2{
+            font-family: Mulish;
+            font-size: 16px;
+            color: black;
+            font-weight: 700;
+            line-height: 45px;
+        
+        
+        }
+        
+        .emergencyText p{
+            font-family: Mulish;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 20px;
+            color: grey;
+            width: 110%;
+        
+        }
+        
+        .tracking{
+            width: 30%;
+            background-color: #fff;
+            box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
+            margin: 8px;
+            padding: 3rem 2rem;
+            border-radius: 20px; 
+        }
+        
+        .trackingText h2{
+            font-family: Mulish;
+            font-size: 16px;
+            color: black;
+            font-weight: 700;
+            line-height: 45px;
+        
+        
+        }
+        
+        .tracking p{
+            font-family: Mulish;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 20px;
+            color: grey;
+            width: 110%;
+        
+        }
+
+        .healthcare{
+            display: flex;
+            margin: auto;
+            align-items: center;
+            width: 80%;
+        }
+        .healthcareText{
+        margin-left: 6rem;
+        margin-top: 2rem;
+        }
+        
+        .healthcareText p{
+            font-family: Mulish;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 28px;
+            width: 85%;
+            color: #7D7987;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+        
+        }
+
+        .healthcareBtn{
+            width: 30%;
+        }
+
+        .app{
+            width: 80%;
+        }
+        
+        .appText{
+            margin-left: 6rem;
+            margin-top: 2rem;
+            }
+            
+            
+            .appText p{
+                width: 90%;
+            }
+            
+            .appBtn{
+                width: 30%;
+                margin-bottom: 12rem;
+            }
+        
+        
+            .appImage{
+                width: 100%;
+                }
+
+
+
+                .disease{
+                    width: 70%;
+                }
+            
+                .diseaseImage img{
+                    width: 100%;
+                }
+            
+                .diseaseText{
+                    padding: 1rem 1.5rem;
+            
+                }
+            
+                .diseaseText h2{
+                    font-size: 18px;
+                }
+            
+                .diseaseText p{
+                    font-size: 14px;
+                }
+            
+                .diseaseText h3{
+                    font-size: 17px;
+                }
+            
+                .herbal{
+                    width: 70%;
+                }
+            
+                .herbalImage img{
+                    width: 100%;
+                }
+            
+                .herbalText{
+                    padding: 1rem 1.5rem;
+            
+                }
+            
+                .herbalText h2{
+                    font-size: 18px;
+                }
+            
+                .herbalText p{
+                    font-size: 14px;
+                }
+            
+                .natural{
+                    width: 70%;
+                }
+            
+                .naturalImage img{
+                    width: 100%;
+                }
+            
+                .naturalText{
+                    padding: 1rem 1.5rem;
+            
+                }
+            
+                .naturalText h2{
+                    font-size: 18px;
+                }
+            
+                .naturalText p{
+                    font-size: 14px;
+                }
+            
+                  .footText{
+                    margin-left: 10%;
+                    margin-top: -8.9rem;
+                    margin-bottom: 2rem;
+                  }
+            
+                  .footText h3{
+                    font-size: 15px;
+                  }
+                  .footText p{
+                    font-size: 14px;
+                  } 
+                  .serviceSide{
+                    gap: 4rem;
+                    
+                  }
+
+      }
+
+
+      @media screen and (max-width: 768px){
+
+        nav ul {
+            gap: 1rem;
+            margin: auto;
+        }
+
+        li {
+            font-size: 12px;
+        }
+
+        .dots img{
+            height: 80px;
+            top: 140px;
+            left: -50px;
+            gap: 2px;
+            opacity: 0.3px;
+           
+        }
+        
+        .heroText h2{
+            font-size: 24px;
+            width: 75%;
+         
+        }
+        
+        .heroText p{
+            font-size: 14px;
+            width: 78%;
+          
+        }
+        
+        .heroBtn button {
+            font-size: 12px;
+            width: 40%;
+         
+        }
+        
+        .heroImage img{
+        width: 100%;
+        }
+
+        .serviceText h2{
+            font-size: 23px;
+
+        }
+        
+        .serviceText p{
+            font-size: 11px;
+            width: 95%;
+        }
+        
+        .search{
+            width: 35%;
+        }
+    
+        .searchText h2{
+            font-size: 14px;
+           
+        }
+        
+        .searchText p{
+            font-size: 11px;
+            width: 100%;
+        }
+        
+        .pharmacy{
+            width: 35%;
+        }
+        
+        
+        .pharmacyText h2{
+            font-size: 14px;
+        
+        }
+        
+        .pharmacyText p{
+            font-size: 11px;
+        }
+        
+        .consultation{
+            width: 35%;
+        }
+        
+        .consultationText h2{
+            font-size: 14px;
+        }
+        
+        .consultation p{
+            font-size: 11px;
+        }
+        
+        
+        .details{
+            width: 35%;
+        }
+        
+        .detailsText h2{
+            font-size: 14px;
+        }
+        
+        .detailsText p{
+            font-size: 11px;
+        }
+        
+        .emergency{
+            width: 35%;
+        }
+        
+        .emergencyText h2{
+            font-size: 14px;
+        }
+        
+        .emergencyText p{
+            font-size: 11px;
+        }
+        
+        .tracking{
+            width: 35%;
+        }
+        
+        .trackingText h2{
+            font-size: 14px;
+        }
+        
+        .tracking p{
+            font-size: 11px;
+        }
+
+        .serviceBtn button {
+            font-size: 11px;
+            padding: .3rem .4rem;
+            margin-bottom: 0rem;
+        
+        }
+
+        .healthcareText{
+            margin-left: 5rem;
+            margin-top: 10rem;
+            }
+
+
+        .healthcareText h2{
+            font-size: 20px;
+            line-height: 32px;
+        }
+
+        .healthcareLine{
+            width: 7%;
+            margin-bottom: 1.5rem;
+            border: 1.3px solid black;
+        }
+
+        .healthcareText p{
+            font-size: 11px;
+            width: 85%;
+            margin-bottom: 1.5rem;
+
+        }
+
+        .healthcareBtn{
+            font-size: 12px;
+            width: 35%;
+            border: 1.2px solid #458FF6;
+        }
+
+
+        .app{
+            display: flex;
+            margin-top: 5rem;
+            align-items: center;
+            width: 80%;
+        }
+
+        .appText{
+            margin-left: 0rem;
+            margin-top: 0rem;
+            }
+            
+            .appText h2{
+                font-size: 20px;
+                line-height: 29px;
+                width: 50%;
+            }
+            
+            
+            .appText p{
+                font-size: 11px;
+                line-height: 25px;
+                width: 65%;
+            }
+            
+            .appBtn{
+                font-size: 12px;
+                width: 35%;
+                border: 1.2px solid #458FF6;
+                margin-bottom: 2rem;
+            }
+                
+            .appImage img{
+                width: 100%;
+                margin-bottom: 10rem;
+              padding-left:  -2rem;
+            }
+
+            .customer{
+                width: 85%;
+                margin: auto;
+                align-items: center;
+                padding: 20px;
+                padding: 3rem 2rem;
+                margin-top: 5rem;
+            }
+        
+            .customerText h2{
+                font-size: 22px;
+                font-weight: 500;
+                line-height: 38px;
+                margin-bottom: .5rem;
+            }
+        
+            .customerLine{
+                margin-bottom: 2rem;
+                border: 1.1px solid white;
+            }
+        
+            .edwardImage{
+              width: 80%;
+              margin-right: -4rem;
+            }
+        
+            .edwardImage img {
+                width:40%;
+                margin-left: 4rem;
+                margin-right: -3rem;
+            }
+                
+            .edwardText {
+                margin-top: 1rem;
+                    gap: 0rem;
+            }
+                  
+            .edwardSignature {
+                    margin-top: .5rem;
+                    width: 100%;
+            }
+        
+            .edwardSignature h2{
+                    font-size: 12px;
+                    font-weight: 500;
+                    line-height: 30px;
+            }
+        
+                  .edwardSignature p{
+                    font-size: 11px;
+                  }
+                  
+                  .edwardParagraph {
+                    width: 100%;
+                    margin-left: -5rem;
+                    margin-top: -.2rem;
+                    font-size: 10px;
+                    line-height: 20px;
+                    font-weight: 0;
+                  }
+        
+                  .arrow{
+                    margin-top: 2rem;
+                    text-align: center;
+        
+                  }
+                  .arrow img{
+                    width: 20%;
+                    margin-bottom: 7rem;
+                  }
+
+                .articleText h2{
+                    font-size: 22px;;
+                    margin-bottom: .1rem;
+                }
+            
+                .disease{
+                    width: 100%;
+                    border-radius: 20px; 
+                    margin-right: 3rem; 
+                }
+        
+
+                .diseaseText h2{
+                    width: 110%;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            
+                .diseaseText p{
+                    font-size: 10px;
+                    font-weight: 300;
+                    line-height: 20px;
+                    margin-top: -1.5rem;
+                }
+            
+                .diseaseText h3{
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            
+                .herbal{
+                    width: 100%;
+                    border-radius: 20px; 
+                    margin-right: 3rem;  
+                }
+            
+                .herbalText h2{
+                    width: 110%;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            
+                .herbalText p{
+                    font-size: 10px;
+                    font-weight: 300;
+                    line-height: 20px;
+                }
+            
+                .herbalText h3{
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            
+                .natural{
+                    width: 100%;
+                    border-radius: 20px; 
+                    margin-right: 3rem; 
+                }
+            
+                .naturalText h2{
+                    width: 110%;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            
+                .naturalText p{
+                    font-size: 10px;
+                    font-weight: 300;
+                    line-height: 20px;
+                    margin-top: 2rem;
+                }
+            
+                .naturalText h3{
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            
+                .articlebtn{
+                    font-size: 12px;
+                    width: 15%;
+                    border: 1px solid #458FF6;
+                    margin: auto;
+                    margin-top: 3rem;
+                    margin-bottom: 8rem;
+                    padding: .3rem .3rem;           
+                }
+
+
+                footer{
+                    padding-top: 4rem;
+                }
+
+                .footcontainer{
+                    width: 80%;
+                    margin: auto;
+                }
+            
+                .logo{
+                    display: flex;
+                    margin-bottom: 1.5rem;
+                    flex: end;
+                   
+                }
+            
+                .circle-t {
+                    width: 40px; 
+                    height: 40px;
+                  }
+            
+                  .circleText{
+                    margin-top: .3rem;
+                  }
+            
+                  .footText{
+                    margin-top: -7rem;
+                    margin-bottom: 2rem;
+                    margin-right: 5rem;
+                  }
+            
+                  .footText h3{
+                    font-size: 10px;
+                    line-height: 22px;
+                    width:35%;
+                    margin-bottom: 2rem;
+            
+                  }
+                  .footText p{
+                    font-size: 10px;
+                    font-weight: 100;
+                    line-height: 20px;
+            
+                  }
+                  
+                  
+                  .serviceSide{
+                    display: flex;
+                    margin-top: -.5rem;
+                    
+                  }
+            
+                  .companyLink h4{
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 60px;
+                  }
+            
+                  .companyLink li{
+                    font-size: 13px;
+                    line-height: 30px;
+                  }
+            
+                  .regionLink h4{
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 60px;
+                  }
+            
+                  .regionLink li{
+                    font-size: 13px;
+                    line-height: 30px;
+                    
+                  }
+            
+                  .helpLink h4{
+                    font-size: 14px;
+                  }
+            
+                  .helpLink li{
+                    font-size: 13px;
+                    line-height: 30px;
+                  }
+            
+                  .footImage{
+                    width: 50%;
+                  }
+            
+                  .footImage img{
+                    width: 15%;
+                  }
+
+                }
+
+
+
+    @media screen and (max-width: 426px){
+
+    nav ul {
+        gap: 1rem;
+        margin: auto;
+    }
+
+    li {
+        display: none;
+    }
+
+    .logo img{
+        width: 70%;
+        
+    }
+
+    .dots{
+        margin-top: -3rem;
+        margin-bottom: 1rem;
+    }
+
+    .dots img{
+        height: 50px;
+        top: 100px;
+        left: -50px;
+        opacity: 0.3px;
+        
+    }
+
+    .hero{
+        flex-direction:column-reverse;
+    }
+
+    .heroText{
+        /* align-items: center; */
+        margin: auto;
+    }
+    
+    .heroText h2{
+        font-size: 22px;
+        width: 60%;
+        text-align: left;
+        
+    }
+
+    .heroImage {
+        width: 80%;
+        margin-bottom: 1rem;
+        }
+    
+    .heroText p{
+        font-size: 14px;
+        width: 89%;
+        
+    }
+    
+    .heroBtn button {
+        font-size: 12px;
+        width: 35%;
+        margin-top: .5rem;
+        padding: .4rem .4rem;
+        
+    }
+
+    .serviceText{
+        margin-top: -6rem;
+    }
+
+    .serviceText h2{
+        font-size: 22px;
+        line-height: 16px;
+        margin-bottom: 1.5rem;
+        margin-top: 10rem;
+    }
+
+    .line {
+        width: 6%;
+        margin-bottom: 1.5rem;
+        margin-top: -.6rem;
+    }
+    
+    .serviceText p{
+        font-size: 12px;
+        width: 100%;
+        line-height: 20px;
+    }
+
+    .boxes{
+        flex-direction:column;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+    }
+
+    .search{
+    width: 65%;
+    box-shadow:5px 10px 10px 10px rgba(209, 201, 201, 0.2);
+    padding: 20px;
+    margin: 8px;
+    padding: .5rem .5rem;
+    border-radius: 20px; 
+    margin-right: 3rem;
+    text-align: center;
+    align-items: center;
+    }
+
+    .searchText h2{
+        font-size: 18px;
+        line-height: 20px;
+        overflow: hidden;
+        margin-bottom: 1rem;  
+    }
+    
+    .searchText p{
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 2rem; 
+    }
+    
+    .pharmacy{
+        width: 65%;
+        box-shadow:5px 10px 10px 10px rgba(209, 201, 201, 0.2);
+        padding: 20px;
+        margin: 8px;
+        padding: .5rem .5rem;
+        border-radius: 20px; 
+        margin-right: 3rem;
+        text-align: center;
+        align-items: center;
+    }
+    
+    
+    .pharmacyText h2{
+        font-size: 18px;
+        line-height: 20px;
+        overflow: hidden;
+        margin-bottom: 1rem; 
+        width: 110%; 
+    
+    }
+    
+    .pharmacyText p{
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 2rem; 
+    }
+    
+    .consultation{
+        width: 65%;
+        box-shadow:5px 10px 10px 10px rgba(209, 201, 201, 0.2);
+        padding: 20px;
+        margin: 8px;
+        padding: .5rem .5rem;
+        border-radius: 20px; 
+        margin-right: 3rem;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .consultationText h2{
+        font-size: 18px;
+        line-height: 20px;
+        overflow: hidden;
+        margin-bottom: 1rem; 
+        width: 100%;
+    }
+    
+    .consultation p{
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 2rem; 
+    }
+
+
+    .boxes2{
+        flex-direction:column;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+    }
+    
+    
+    .details{
+        width: 65%;
+        box-shadow:5px 10px 10px 10px rgba(209, 201, 201, 0.2);
+        padding: 20px;
+        margin: 8px;
+        padding: .5rem .5rem;
+        border-radius: 20px; 
+        margin-right: 3rem;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .detailsText h2{
+        font-size: 18px;
+        line-height: 20px;
+        overflow: hidden;
+        margin-bottom: 1rem; 
+    }
+    
+    .detailsText p{
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 2rem; 
+    }
+    
+    .emergency{
+        width: 65%;
+        box-shadow:5px 10px 10px 10px rgba(209, 201, 201, 0.2);
+        padding: 20px;
+        margin: 8px;
+        padding: .5rem .5rem;
+        border-radius: 20px; 
+        margin-right: 3rem;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .emergencyText h2{
+        font-size: 18px;
+        line-height: 20px;
+        overflow: hidden;
+        margin-bottom: 1rem; 
+    }
+    
+    .emergencyText p{
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 2rem; 
+    }
+    
+    .tracking{
+        width: 65%;
+        box-shadow:5px 10px 10px 10px rgba(209, 201, 201, 0.2);
+        padding: 20px;
+        margin: 8px;
+        padding: .5rem .5rem;
+        border-radius: 20px; 
+        margin-right: 3rem;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .trackingText h2{
+        font-size: 18px;
+        line-height: 20px;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+    
+    .tracking p{
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .serviceBtn button {
+        font-size: 11px;
+        padding: .3rem .4rem;
+        width: 35%;
+        margin-bottom: 6rem;
+    
+    }
+
+    .healthcare{
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .healthcareImage img{
+        width: 80%;
+        align-items: center;
+    }
+
+    .healthcareImage {
+        align-items: center;
+    }
+
+    .healthcareText{
+        margin-left: 0rem;
+        margin-top: 1rem;
+        }
+
+    .healthcareText h2{
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .healthcareText p{
+        font-size: 14px;
+        width: 90%;
+        margin-bottom: 1.5rem;
+        line-height: 22px;
+
+    }
+
+    .healthcareBtn{
+        font-size: 12px;
+        width: 35%;
+        border: 1.2px solid #458FF6;
+    }
+
+
+    .app{
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+        align-items: center;
+        width: 80%;
+    }
+
+    .appText{
+        margin-top: -7rem;
+        }
+        
+        .appText h2{
+            font-size: 22px;
+            line-height: 29px;
+            width: 50%;
+        }
+        
+        
+        .appText p{
+            font-size: 14px;
+            line-height: 22px;
+            width: 90%;
+        }
+        
+        .appBtn{
+            font-size: 12px;
+            width: 40%;
+        }
+            
+        .appImage img{
+            width: 100%;
+            margin-bottom: 10rem;
+            padding-left:  -2rem;
+        }
+
+        .customer{
+            width: 85%;
+            margin: auto;
+            align-items: center;
+            padding: 20px;
+            padding: 3rem 2rem;
+            margin-top: 5rem;
+        }
+    
+        .customerText h2{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 35px;
+            margin-bottom: .5rem;
+        }
+    
+        .customerLine{
+            margin-bottom: 2rem;
+            border: 1.1px solid white;
+            width: 10%;
+        }
+
+        .edward{
+            flex-direction: column;
+            /* align-items: center; */
+            margin: auto;
+        }
+    
+        .edwardImage{
+            width: 80%;
+            justify-content: center;
+            margin: auto;
+            /* margin-right: -4rem; */
+        }
+    
+        .edwardImage img {
+            width:40%;
+            /* margin-left: 4rem; */
+            /* margin-right: -3rem; */
+            /* justify-items: center; */
+            /* align-items: center; */
+        }
+            
+        .edwardText {
+            margin-top: 1rem;
+            /* gap: 0rem; */
+            text-align: center;
+        }
+                
+        .edwardSignature {
+            flex: end;
+            margin-top: -.5rem;
+            width: 100%;
+            text-align: center;
+        }
+    
+        .edwardSignature h2{
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 30px;
+        }
+    
+                .edwardSignature p{
+                font-size: 11px;
+                margin-top: -.5;
+                }
+                
+                .edwardParagraph {
+                width: 100%;
+                margin-top: 5rem;
+                margin-left: -16rem;
+                text-align: center;
+                font-size: 10px;
+                line-height: 20px;
+                font-weight: 0;
+                }
+    
+                .arrow{
+                margin-top: 2rem;
+                text-align: center;
+    
+                }
+                .arrow img{
+                width: 30%;
+                margin-bottom: 5rem;
+                }
+
+            .articleText h2{
+                font-size: 22px;
+                margin-bottom: .1rem;
+            }
+
+            .articleLine{
+                width: 6%;
+                margin: auto;
+                margin-bottom: 4rem;
+                border: 1.3px solid black;
+            }
+        
+            .articleBoxes{
+                flex-direction: column;
+                margin: auto;
+                width: 80%;
+            }
+        
+            .disease{
+                width: 80%;
+            }
+
+            
+            .diseaseImage{
+                width: 100%;
+                justify-items: center;
+                align-items: center;
+                margin: auto;
+            }
+
+            .diseaseText h2{
+                font-size: 16px;
+                line-height: 20px;
+                margin-bottom: 2rem;
+            }
+        
+            .diseaseText p{
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 20px;
+                margin-top: -1.5rem;
+            }
+    
+        
+            .herbal{
+                width: 80%; 
+            }
+
+            .herbalImage{
+                width: 100%;
+                justify-items: center;
+                align-items: center;
+                margin: auto;
+            }
+        
+            .herbalText h2{
+                font-size: 16px;
+                line-height: 20px;
+                margin-bottom: 2rem;
+            }
+        
+            .herbalText p{
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 20px;
+                margin-top: -1.5rem;
+            }
+        
+            .natural{
+                width: 80%;
+            }
+
+            .naturalImage{
+                width: 100%;
+                justify-items: center;
+                align-items: center;
+                margin: auto;
+            }
+        
+            .naturalText h2{
+                font-size: 16px;
+                line-height: 20px;
+                margin-bottom: 2rem;
+            }
+        
+            .naturalText p{
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 20px;
+                margin-top: -1.5rem;
+            }
+        
+            .naturalText h3{
+                font-size: 14px;
+                line-height: 20px;
+            }
+        
+            .articlebtn{
+                font-size: 12px;
+                width: 30%;
+                border: 1px solid #458FF6;
+                margin: auto;
+                margin-top: 2rem;
+                margin-bottom: 5rem;
+                padding: .3rem .3rem;           
+            }
+
+
+            footer{
+                padding-top: 4rem;
+            }
+
+            .footcontainer{
+                width: 80%;
+                margin: auto;
+                flex-direction:column-reverse;
+                justify-content: center;
+                overflow: hidden;   
+            }
+        
+            .logo{
+                margin-bottom: 1.5rem;
+                flex: end;
+                
+            }
+        
+            .circle-t {
+                width: 40px; 
+                height: 40px;
+                overflow: hidden;
+            }
+
+                .circle-t span {
+                    font-family: Mulish;
+                    font-size: 26px;
+                    font-weight: 700;
+                    line-height: 32.63px;
+                
+                }
+        
+        
+                .circleText{
+                    font-size: 12px; 
+                    margin-top: .1.5rem;
+                }
+        
+                .footText{
+                    margin-top: 0rem;
+                    margin-bottom: 2rem;
+                    margin-right: 5rem;
+                }
+        
+                .footText h3{
+                    font-size: 14px;
+                    line-height: 22px;
+                    width:100%;
+                    margin-bottom: 2rem;
+        
+                }
+                .footText p{
+                    font-size: 14px;
+                    font-weight: 100;
+                    line-height: 20px;
+            
+                }
+                
+                
+                .serviceSide{
+                    flex-direction:column;
+                    overflow: hidden;
+                    /* margin-top: 40rem; */
+
+                
+                }
+        
+                .companyLink h4{
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 60px;
+                }
+        
+                .companyLink li{
+                    font-size: 5px;
+                    line-height: 30px;
+                    text-align: left;
+                    gap: 3rem;
+                }
+        
+                .regionLink h4{
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 60px;
+                }
+        
+                .regionLink li{
+                    font-size: 13px;
+                    line-height: 30px;
+                    
+                }
+        
+                .helpLink h4{
+                    font-size: 14px;
+                }
+        
+                .helpLink li{
+                    font-size: 13px;
+                    line-height: 30px;
+                
+                }
+        
+                .footImage{
+                    width: 60%;
+                }
+        
+                .footImage img{
+                     width: 20%;
+                }
+
+
+                    
+
+
+
+
+      }
+
+
+
+
+          
