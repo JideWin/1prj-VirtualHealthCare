@@ -106,7 +106,8 @@ li:hover {
 }
 
 .heroImage img{
-width: 100%;
+width: 90%;
+
 }
 
 
@@ -421,6 +422,7 @@ width: 100%;
 .healthcare{
     display: flex;
     margin: auto;
+    width: 80%;
 }
 
 .healthcareImage{
@@ -491,7 +493,8 @@ margin-top: 2rem;
 .app{
     display: flex;
     margin: auto;
-    margin-top: 10rem;
+    width: 80%;
+    margin-top: 5rem;
 }
 
 .appText{
@@ -539,7 +542,7 @@ margin-top: 2rem;
         color: #458FF6;
         width: 25%;
         border: 1.4px solid #458FF6;
-        margin-bottom: 2rem;
+        margin-bottom: 15rem;
     }
 
 
@@ -553,15 +556,27 @@ margin-top: 2rem;
     }
 
     .customer{
-        width: 85%;
+        width: 80%;
         margin: auto;
         align-items: center;
         background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
         box-shadow:5px 10px 10px 5px rgba(209, 201, 201, 0.2);
         padding: 20px;
         padding: 3rem 2rem;
-        border-radius: 20px; 
+        border-radius: 20px;
+        margin-top: -2rem; 
     }
+
+    /* .customerImage{
+        width: 100%;
+        margin-left: 55rem;
+        margin-top: -2rem; 
+    }
+
+    .customerImage img{
+        width: 5%;
+
+    } */
 
     .customerText{
         margin: auto;
@@ -648,6 +663,11 @@ margin-top: 2rem;
             margin-bottom: 10rem;
           }
 
+          .article{
+            margin: auto;
+            width: 80%;
+          }
+
     .articleText{
         text-align: center;
     }
@@ -670,7 +690,7 @@ margin-top: 2rem;
     .articleBoxes{
         display: flex;
         margin: auto;
-        width: 95%;
+        width: 100%;
     }
 
     .disease{
@@ -696,13 +716,14 @@ margin-top: 2rem;
     .diseaseText h2{
         /* width: 90%; */
         font-family:Mulish;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 750;
         line-height: 30px;
         margin-bottom: .5rem;
     }
 
     .diseaseText p{
+        font-size: 15px;
         font-family: Mulish;
         font-weight: 300;
         line-height: 28px;
@@ -713,7 +734,7 @@ margin-top: 2rem;
 
     .diseaseText h3{
         font-family: Mulish;
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 549;
         line-height: 28px;
         color: #4089ED;
@@ -742,7 +763,7 @@ margin-top: 2rem;
     .herbalText h2{
         /* width: 90%; */
         font-family:Mulish;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 750;
         line-height: 30px;
         margin-bottom: .5rem;
@@ -750,7 +771,7 @@ margin-top: 2rem;
 
     .herbalText p{
         font-family: Mulish;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 300;
         line-height: 28px;
         color:#7D7987;
@@ -759,7 +780,7 @@ margin-top: 2rem;
 
     .herbalText h3{
         font-family: Mulish;
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 549;
         line-height: 28px;
         color: #4089ED;
@@ -788,7 +809,7 @@ margin-top: 2rem;
     .naturalText h2{
         /* width: 90%; */
         font-family:Mulish;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 750;
         line-height: 30px;
         margin-bottom: .5rem;
@@ -796,7 +817,7 @@ margin-top: 2rem;
 
     .naturalText p{
         font-family: Mulish;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 300;
         line-height: 28px;
         color:#7D7987;
@@ -805,7 +826,7 @@ margin-top: 2rem;
 
     .naturalText h3{
         font-family: Mulish;
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 549;
         line-height: 28px;
         color: #4089ED;
@@ -1827,12 +1848,14 @@ margin-top: 2rem;
     @media screen and (max-width: 426px){
 
     nav ul {
+        display:none;
         gap: 1rem;
         margin: auto;
     }
 
     li {
-        display: none;
+ 
+
     }
 
     .logo img{
@@ -2234,7 +2257,7 @@ margin-top: 2rem;
                 .edwardParagraph {
                 width: 100%;
                 margin-top: 5rem;
-                margin-left: -16rem;
+                margin-left: -18rem;
                 text-align: center;
                 font-size: 10px;
                 line-height: 20px;
@@ -2374,6 +2397,7 @@ margin-top: 2rem;
             .logo{
                 margin-bottom: 1.5rem;
                 flex: end;
+                margin-top: 3rem;
                 
             }
         
@@ -2421,43 +2445,36 @@ margin-top: 2rem;
                 .serviceSide{
                     flex-direction:column;
                     overflow: hidden;
-                    /* margin-top: 40rem; */
-
-                
+                    gap: 1.5rem;
                 }
         
                 .companyLink h4{
-                    color: #fff;
-                    font-size: 16px;
-                    font-weight: 600;
-                    line-height: 60px;
+                    font-size: 17px;
                 }
         
                 .companyLink li{
-                    font-size: 5px;
+                    font-size: 14px;
                     line-height: 30px;
                     text-align: left;
                     gap: 3rem;
                 }
         
                 .regionLink h4{
-                    font-size: 14px;
-                    font-weight: 600;
-                    line-height: 60px;
+                    font-size: 17px;
+
                 }
         
                 .regionLink li{
-                    font-size: 13px;
-                    line-height: 30px;
+                    font-size: 15px;
                     
                 }
         
                 .helpLink h4{
-                    font-size: 14px;
+                    font-size: 17px;
                 }
         
                 .helpLink li{
-                    font-size: 13px;
+                    font-size: 15px;
                     line-height: 30px;
                 
                 }
@@ -2470,13 +2487,15 @@ margin-top: 2rem;
                      width: 20%;
                 }
 
-
-                    
-
-
-
-
       }
+
+
+@media screen and (max-width: 376px){
+    .edwardParagraph {
+        margin-left: -16rem;
+        }
+
+}
 
 
 
